@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <title>HybridPETs logo</title>
+  <defs>
+    <clipPath id="cat-half"><rect width="64" height="128"/></clipPath>
+    <clipPath id="dog-half"><rect x="64" width="64" height="128"/></clipPath>
+  </defs>
+  <path d="M27 60 C28 43 30 27 35 14 C45 22 54 31 61 41 Z" fill="#0c5c63"/>
+  <path d="M33 49 C34 40 35 32 38 25 C43 30 48 35 52 41 Z" fill="#6fa3a5"/>
+  <ellipse cx="64" cy="72" rx="40" ry="36" fill="#0c5c63" clip-path="url(#cat-half)"/>
+  <ellipse cx="64" cy="72" rx="40" ry="36" fill="#d68c3c" clip-path="url(#dog-half)"/>
+  <path d="M27 64 C35 55 51 55 59 61 L64 63.5 L69 61 C77 55 93 55 101 64 C103 72 97 80 89 80 C80 80 72 76 64 72 C56 76 48 80 39 80 C31 80 25 72 27 64 Z" fill="#17202a"/>
+  <path d="M73 38 C81 31 96 30 104 36 C112 42 117 58 117 74 C117 86 114 95 108 95 C103 95 101 87 100 78 C99 66 95 51 73 38 Z" fill="#a9622a"/>
+  <ellipse cx="44" cy="68.5" rx="7.2" ry="6.2" fill="#fff"/>
+  <ellipse cx="44" cy="68.5" rx="1.9" ry="4.8" fill="#17202a"/>
+  <ellipse cx="84" cy="68.5" rx="7.2" ry="6.2" fill="#fff"/>
+  <circle cx="84" cy="68.8" r="3.5" fill="#17202a"/>
+  <circle cx="85.6" cy="67.2" r="1.1" fill="#fff"/>
+  <path d="M57 84 C60 82 68 82 71 84 C70 88.5 66.5 91 64 91 C61.5 91 58 88.5 57 84 Z" fill="#17202a"/>
+  <path d="M64 91 V95 M64 95 C61 99 56 99 54 96 M64 95 C67 99 72 99 74 96" fill="none" stroke="#17202a" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M67.5 97.5 C67 103 72.5 105.5 75 101.5 C76 99 74.5 97 72.5 96.5 Z" fill="#e8857f"/>
+  <path d="M42 88 L17 84 M42 92 L16 94 M43 96 L20 103" fill="none" stroke="#17202a" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

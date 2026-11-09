@@ -1,11 +1,332 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
-  <meta charset="UTF-8">
-  <title>HybridPETS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HybridPETs 2027 · Workshop on Hybrid Privacy-Enhancing Technologies</title>
+  <meta name="description" content="HybridPETs 2027, the Workshop on Hybrid Privacy-Enhancing Technologies, co-located with ACNS 2027 at Royal Holloway, University of London, Egham, UK.">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#fbfaf7">
+  <link rel="canonical" href="https://hybridpets.github.io/">
+  <meta property="og:url" content="https://hybridpets.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="HybridPETs 2027">
+  <meta property="og:title" content="HybridPETs 2027 · Workshop on Hybrid Privacy-Enhancing Technologies">
+  <meta property="og:description" content="Workshop on Hybrid Privacy-Enhancing Technologies, co-located with ACNS 2027 at Royal Holloway, University of London, Egham, UK.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
 </head>
+
 <body>
-  <h1>Welcome!</h1>
-  <p>Website coming soon.</p>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <img class="brand-logo" src="assets/logo.svg" alt="" width="36" height="36">
+        <span>HybridPETs 2027</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="#call-for-papers">Call for Papers</a></li>
+          <li><a href="#dates">Important Dates</a></li>
+          <li><a href="#organization">Organization</a></li>
+          <li><a href="#location">Location &amp; Registration</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- Banner -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-head">
+          <span class="hero-badge"><img src="assets/logo.svg" alt="" width="96" height="96"></span>
+          <h1 id="hero-title">
+            <span class="hero-name">HybridPETs 2027</span>
+            <span class="hero-fullname">Workshop on Hybrid <span class="nowrap">Privacy-Enhancing</span> Technologies</span>
+          </h1>
+        </div>
+
+        <dl class="facts">
+          <div>
+            <dt>Co-located with</dt>
+            <dd>ACNS 2027 <span class="fact-detail">25th International Conference on Applied Cryptography and Network Security</span></dd>
+          </div>
+          <div>
+            <dt>Conference dates</dt>
+            <dd><time datetime="2027-06-28">28 June</time> – <time datetime="2027-07-01">1 July 2027</time></dd>
+          </div>
+          <div>
+            <dt>Workshop date</dt>
+            <dd><span class="tba">TBA</span></dd>
+          </div>
+          <div>
+            <dt>Location</dt>
+            <dd>Royal Holloway, University of London <span class="fact-detail">Egham, United Kingdom</span></dd>
+          </div>
+        </dl>
+
+        <p class="hero-cta"><a class="button" href="#call-for-papers">Call for Papers</a></p>
+      </div>
+    </section>
+
+    <!-- Call for Papers -->
+    <section class="section" id="call-for-papers" aria-labelledby="cfp-title">
+      <div class="container cfp-layout">
+        <div class="cfp-main">
+          <h2 id="cfp-title">Call for Papers</h2>
+          <p>
+            Real-world deployments of privacy-preserving systems increasingly
+            combine several privacy-enhancing technologies (PETs), such as
+            secure multi-party computation (MPC), homomorphic encryption (HE),
+            trusted execution environments (TEEs), differential privacy (DP),
+            zero-knowledge proofs (ZKPs), and private information retrieval
+            (PIR). These techniques protect different aspects of a computation,
+            rely on different trust assumptions, and come with very different
+            costs. Large-scale applications, such as private inference on large
+            language models, often require more than one of them.
+          </p>
+          <p>
+            HybridPETs is a new full-day workshop at ACNS 2027 dedicated to such
+            combinations. It brings together researchers and practitioners from
+            cryptography, privacy, systems, and hardware security to discuss how
+            heterogeneous PETs can be combined securely and efficiently, which
+            end-to-end guarantees the resulting systems provide, and how they
+            can be implemented, accelerated, verified, and deployed.
+          </p>
+          <p>
+            Submissions should address the combination of two or more PETs, or
+            of a PET with trusted hardware, hardware acceleration, or other
+            system components. Work on a single PET in isolation, on general AI
+            security, or on hardware acceleration without such a combination is
+            out of scope.
+          </p>
+
+          <h3>Topics of interest</h3>
+          <p>Topics of interest include, but are not limited to:</p>
+          <ul class="topics">
+            <li>Protocols and architectures combining multiple PETs, e.g., MPC with HE, HE with ZKPs, PIR with HE, or private set intersection with complementary techniques</li>
+            <li>TEEs combined with cryptographic techniques or DP, including attestation-based protocols and cryptographic fallback after a TEE compromise</li>
+            <li>Secure aggregation, federated learning, and distributed analytics with combined cryptographic and DP guarantees</li>
+            <li>Hybrid PETs for machine learning and AI: private training, fine-tuning, and inference, including large language models, retrieval-augmented generation, and AI agents</li>
+            <li>Selection, orchestration, and switching between PETs, and secure conversion between protected representations</li>
+            <li>Compilers and intermediate representations for heterogeneous PET pipelines</li>
+            <li>Composition of security and privacy guarantees, formal verification, and failure analysis of hybrid PET systems</li>
+            <li>Verifiability and accountability, e.g., verifiable confidential computing, ZKPs combined with privacy mechanisms, and audit evidence</li>
+            <li>Hardware/software co-design and acceleration of hybrid PETs on GPUs, FPGAs, and ASICs, and the interaction between TEEs and accelerators</li>
+            <li>Benchmarking, performance evaluation, and interoperability of hybrid PET systems</li>
+            <li>Applications and deployment experience, e.g., in healthcare, genomics, finance, mobility, digital identity, IoT, threat intelligence, and enterprise AI</li>
+          </ul>
+
+          <h3>Submissions</h3>
+          <p>
+            In addition to new techniques and systems, we welcome rigorous
+            negative results, practical deployment experience, and extensive
+            performance or use-case evaluations.
+          </p>
+          <p>All submissions must follow the guidelines below.</p>
+          <dl class="details">
+            <div>
+              <dt>Format</dt>
+              <dd>
+                All submissions must be in PDF format, following the unmodified
+                <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">LNCS format</a>.
+              </dd>
+            </div>
+            <div>
+              <dt>Page limits</dt>
+              <dd>
+                At most 18 pages excluding references and appendices, and at
+                most 24 pages in total, including references and appendices.
+                Reviewers are not required to read appendices, so submissions
+                should be intelligible without them.
+              </dd>
+            </div>
+            <div>
+              <dt>Anonymity</dt>
+              <dd>
+                Reviewing is double-blind. Submissions must be anonymous, with no
+                author names, affiliations, acknowledgments, or obvious
+                references. Supplementary artifacts, such as source code or data,
+                may be made available to reviewers through an anonymous
+                repository (e.g.,
+                <a href="https://anonymous.4open.science/">anonymous.4open.science</a>),
+                with the anonymous URL included in the paper.
+              </dd>
+            </div>
+            <div>
+              <dt>Originality</dt>
+              <dd>
+                Submissions must not substantially overlap with papers that have
+                been published (other than as preprints) or accepted for
+                publication, or that are simultaneously submitted to a journal,
+                conference, or workshop with published proceedings.
+              </dd>
+            </div>
+            <div>
+              <dt>Conflicts of interest</dt>
+              <dd>
+                As defined in the
+                <a href="https://acns2027.isg.rhul.ac.uk/calls/papers/">ACNS 2027 Call for Papers</a>:
+                a shared institutional affiliation at the time of submission
+                (including secondary affiliations and consulting), an
+                advisor–advisee relationship at any time, collaboration or joint
+                publication within the prior two years, sponsorship or
+                administration of a grant funding the research, or close
+                personal or family ties.
+              </dd>
+            </div>
+            <div>
+              <dt>Submission site</dt>
+              <dd><span class="tba">Submission link to be announced</span></dd>
+            </div>
+          </dl>
+          <p class="details-note">
+            Submissions that do not follow these guidelines or fall outside the
+            scope of the workshop may be rejected without review at the
+            discretion of the PC chairs.
+          </p>
+
+          <h3>Publication and presentation</h3>
+          <p>
+            Accepted papers will be published in the joint post-proceedings of
+            the ACNS 2027 workshops in Springer’s LNCS series. Camera-ready
+            versions are expected to be due on 14 June 2027 (AoE). All accepted
+            papers will be considered for the ACNS 2027 Best Workshop Paper
+            Award (EUR 500, sponsored by Springer).
+          </p>
+          <p class="requirement">
+            <strong>Every accepted workshop paper requires at least one regular
+            (non-student) conference registration and an in-person
+            presentation.</strong>
+            <a href="https://acns2027.isg.rhul.ac.uk/registration/">ACNS 2027 registration</a>
+          </p>
+        </div>
+
+        <div class="cfp-aside">
+          <section class="box" id="dates" aria-labelledby="dates-title">
+            <h2 id="dates-title">Important dates</h2>
+            <dl class="dates">
+              <div>
+                <dt>Submission</dt>
+                <dd><time datetime="2027-02-19">19 February 2027</time> <abbr title="Anywhere on Earth">AoE</abbr></dd>
+              </div>
+              <div>
+                <dt>Notification</dt>
+                <dd><time datetime="2027-03-21">21 March 2027</time> <abbr title="Anywhere on Earth">AoE</abbr></dd>
+              </div>
+              <div>
+                <dt>Camera-ready</dt>
+                <dd><time datetime="2027-06-14">14 June 2027</time> <abbr title="Anywhere on Earth">AoE</abbr></dd>
+              </div>
+              <div>
+                <dt>Workshop</dt>
+                <dd><span class="tba">TBA</span></dd>
+                <dd class="date-note">Between 28 June and 1 July 2027</dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="box" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact</h2>
+            <p><a class="email">hybridpets&nbsp;[at] acns2027&nbsp;[dot]&nbsp;com</a></p>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Organization -->
+    <section class="section section--alt" id="organization" aria-labelledby="organization-title">
+      <div class="container">
+        <h2 id="organization-title">Organization</h2>
+        <div class="org-grid">
+          <div>
+            <h3>PC Chairs</h3>
+            <ul class="people">
+              <li class="person">
+                <img class="person-photo" src="assets/people/hossein-yalame.jpg" alt="" width="88" height="88">
+                <div>
+                  <p class="person-name">Hossein Yalame</p>
+                  <p class="person-affiliation">Bosch Research, Germany</p>
+                </div>
+              </li>
+              <li class="person">
+                <img class="person-photo" src="assets/people/ajith-suresh.jpg" alt="" width="88" height="88">
+                <div>
+                  <p class="person-name">Ajith Suresh</p>
+                  <p class="person-affiliation">Technology Innovation Institute, UAE</p>
+                </div>
+              </li>
+            </ul>
+            <p class="org-contact">Contact: <a class="email">hybridpets&nbsp;[at] acns2027&nbsp;[dot]&nbsp;com</a></p>
+          </div>
+          <div>
+            <h3>Program Committee</h3>
+            <p><span class="tba">TBA</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location and registration -->
+    <section class="section" id="location" aria-labelledby="location-title">
+      <div class="container">
+        <h2 id="location-title">Location &amp; registration</h2>
+        <div class="location-grid">
+          <div>
+            <h3>Location</h3>
+            <p>
+              HybridPETs 2027 is a full-day, in-person workshop held during
+              ACNS 2027 in the Windsor Building at Royal Holloway, University of
+              London, in Egham, United Kingdom. The exact date will be announced
+              on this page.
+            </p>
+            <p>
+              Information on the
+              <a href="https://acns2027.isg.rhul.ac.uk/info/#venue">venue</a>,
+              <a href="https://acns2027.isg.rhul.ac.uk/info/#location">travel to the campus</a>, and
+              <a href="https://acns2027.isg.rhul.ac.uk/info/#accommodation">accommodation</a>
+              is available on the ACNS 2027 website.
+            </p>
+          </div>
+          <div>
+            <h3>Registration</h3>
+            <p>
+              Registration is handled by ACNS 2027. Please refer to the
+              <a href="https://acns2027.isg.rhul.ac.uk/registration/">conference’s registration page</a>
+              for categories, fees, and deadlines.
+            </p>
+            <p>
+              Every accepted workshop paper requires at least one regular
+              (non-student) conference registration and an in-person
+              presentation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>
+        <strong>HybridPETs 2027</strong> · Workshop on Hybrid Privacy-Enhancing Technologies
+      </p>
+      <p>
+        Co-located with <a href="https://acns2027.isg.rhul.ac.uk/">ACNS 2027</a>
+        · Royal Holloway, University of London
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
