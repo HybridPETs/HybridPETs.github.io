@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="cat-half"><rect width="32" height="64"/></clipPath>
+    <clipPath id="dog-half"><rect x="32" width="32" height="64"/></clipPath>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#fbfaf7"/>
+  <path d="M8 31 C8.5 22 10 13 13 6 C19 10 24 15 28 21 Z" fill="#0c5c63"/>
+  <ellipse cx="32" cy="37" rx="23" ry="21" fill="#0c5c63" clip-path="url(#cat-half)"/>
+  <ellipse cx="32" cy="37" rx="23" ry="21" fill="#d68c3c" clip-path="url(#dog-half)"/>
+  <path d="M10 33 C15 27 25 27 30 31 L32 32 L34 31 C39 27 49 27 54 33 C55 38 51 43 46 43 C41 43 36 40 32 38 C28 40 23 43 18 43 C13 43 9 38 10 33 Z" fill="#17202a"/>
+  <path d="M36 19 C41 15 50 15 55 18 C60 22 62 31 62 40 C62 47 60 52 57 52 C54 52 53 47 52.5 42 C52 35 49 27 36 19 Z" fill="#a9622a"/>
+  <ellipse cx="21" cy="35.5" rx="4.2" ry="3.6" fill="#fff"/>
+  <ellipse cx="43" cy="35.5" rx="4.2" ry="3.6" fill="#fff"/>
+  <circle cx="21" cy="35.7" r="1.9" fill="#17202a"/>
+  <circle cx="43" cy="35.7" r="1.9" fill="#17202a"/>
+  <path d="M28 46 C30 45 34 45 36 46 C35.5 49 33.5 50.5 32 50.5 C30.5 50.5 28.5 49 28 46 Z" fill="#17202a"/>
+</svg>

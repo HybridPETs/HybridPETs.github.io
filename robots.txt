@@ -1,0 +1,6 @@
+# HybridPETs 2027 (https://hybridpets.github.io/)
+# All crawlers are welcome, including search engines and AI crawlers.
+User-agent: *
+Allow: /
+
+Sitemap: https://hybridpets.github.io/sitemap.xml
