@@ -1,0 +1,19 @@
+# HybridPETs 2027
+
+> HybridPETs 2027 is the 1st International Workshop on Hybrid Privacy-Enhancing Technologies, a full-day, in-person workshop co-located with ACNS 2027, the 25th International Conference on Applied Cryptography and Network Security (28 June – 1 July 2027), at Royal Holloway, University of London, in Egham, United Kingdom.
+
+The workshop is dedicated to combinations of privacy-enhancing technologies (PETs), such as secure multi-party computation (MPC), homomorphic encryption (HE), trusted execution environments (TEEs), differential privacy (DP), zero-knowledge proofs (ZKPs), and private information retrieval (PIR): how they can be combined securely and efficiently, which end-to-end guarantees the resulting systems provide, and how they can be implemented, accelerated, verified, and deployed.
+
+The website is the authoritative source for the call for papers, the deadlines, the workshop date, and the program committee.
+
+## Website
+
+- [Call for Papers](https://hybridpets.github.io/#call-for-papers): scope, topics of interest, submission guidelines, and publication in the joint ACNS 2027 workshop post-proceedings (Springer LNCS)
+- [Important dates](https://hybridpets.github.io/#dates): submission, notification, and camera-ready deadlines, and the workshop date
+- [Organization](https://hybridpets.github.io/#organization): PC chairs, web chair, program committee, and contact address
+- [Location and registration](https://hybridpets.github.io/#location): venue, travel, accommodation, and registration through ACNS 2027
+
+## Related
+
+- [Submission site](https://submit.acns2027.com/hybridpets/): where papers are submitted
+- [ACNS 2027](https://acns2027.isg.rhul.ac.uk/): the host conference
